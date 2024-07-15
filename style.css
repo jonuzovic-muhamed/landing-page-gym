@@ -118,7 +118,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    min-height: 600px;
+    min-height: 45vh;
     padding: 24px;
     margin-top: 5px;
     overflow: hidden;
@@ -163,6 +163,33 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background-color: lightcyan;
+    width: 100%;
+    min-height: 25vh;
+    overflow: hidden;
+}
+
+#map_icon {
+    width: 10%;
+    height: 50%;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+    padding: 24px;
+    border: black solid 2px;
+    border-top-left-radius: 3cap;
+    border-bottom-right-radius: 3cap;
 }
 
 footer {
