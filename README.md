@@ -16,5 +16,7 @@ I created the landing page for a fictionary Fitness Studio/Gym.
 !!! TO DO - Screenshoot goes here !!!
 
 ## Sources
-<a href="https://www.flaticon.com/free-icons/gym" title="gym icons">Gym icons created by Freepik - Flaticon</a><br>
-<a href="https://unsplash.com/photos/black-spin-exercise-bike-lot-LOA2mTj1vhc">Free Background Image from Humphrey Muleba on Unsplash</a>
+<a href="https://www.flaticon.com/free-icons/gym" title="gym icons" target="_blank" rel="noopener noreferrer">Gym icons created by Freepik - Flaticon</a><br>
+<a href="https://unsplash.com/photos/black-spin-exercise-bike-lot-LOA2mTj1vhc" target="_blank" rel="noopener noreferrer">Free Gym Image by Humphrey Muleba</a><br>
+<a href="https://unsplash.com/photos/black-and-red-stationary-bikes-F_lns58a_ec?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Free Group Traning Offering Picture by David Marioni</a>
+<a href="https://unsplash.com/photos/three-red-barbell-machines-5Kfpn0m0OB4?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Free Powerlifitng Gear Image</a>
