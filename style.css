@@ -10,8 +10,8 @@ header {
     justify-content: space-between;    
     background: #3382F6;
     color: white;
-    padding: 30px;
-    height: 8vh;
+    padding: 0 10%;
+    min-height: 8vh;
     font-weight: 600;
 }
 
@@ -63,7 +63,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .hero_sign_up {
@@ -75,6 +75,7 @@ main {
     width: 100%;
     background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
     padding: 30px;
+    overflow: hidden;
 }
 
 .hero_text_container {
@@ -106,7 +107,7 @@ main {
 #gym_image {
     border: black solid 1px;
     border-radius: 6cap;
-    height: 400px;
+    height: 35vh;
     filter: brightness(65%);
 }
 
@@ -120,6 +121,7 @@ main {
     min-height: 600px;
     padding: 24px;
     margin-top: 5px;
+    overflow: hidden;
 }
 
 .gym_offers_container {
@@ -133,12 +135,12 @@ main {
 
 .offer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: #3382F6 solid 2px;
-    border-radius: 3cap;
+    gap: 12px;
     width: 20%;
-    height: 300px;
+    min-height: 350px;
     padding: 12px;
     overflow: hidden;
     background-size: cover;
@@ -150,20 +152,10 @@ main {
     filter: brightness(30%);
 }
 
-#first_offer {
-    background-image: url(images/cardio_traning.jpg);
-}
-
-#second_offer {
-    background-image: url(images/group_traning.jpg);
-}
-
-#third_offer {
-    background-image: url(images/diet_food.jpg);
-}
-
-#fourth_offer {
-    background-image: url(images/powerlifting.jpg);
+.offer_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 3cap;
 }
 
 .gym_offers_text_container {
