@@ -56,17 +56,53 @@ body {
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     height: 90vh;
-    margin: 15px 0;
 }
 
-.hero {
-    background-size: cover;
-    height: 100%;
-    width: 90%;
-    margin: 30px;
-    border-radius: 5cap;
+.hero_sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    min-height: 45vh;
+    width: 100%;
+    background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    padding: 30px;
+}
+
+.hero_text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 80px;
+    font-weight: 700;
+    color: black;
+}
+
+.hero_sign_up_button {
+    background-color: #3382F6;
+    color: white;
+    font-size: x-large;
+    border: 0px;
+    border-radius: 1cap;
+    padding: 12px;
+}
+
+.hero_sign_up_button:hover {
+    background-color: white;
+    color: #3382F6;
+    border: #3382F6 solid 2px;
+}
+
+#gym_image {
+    border: black solid 1px;
+    border-radius: 6cap;
+    height: 60vh;
+    width: 100%;
+    filter: brightness(65%);
 }
 
 footer {

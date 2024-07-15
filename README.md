@@ -15,6 +15,6 @@ I created the landing page for a fictionary Fitness Studio/Gym.
 ## Preview Image
 !!! TO DO - Screenshoot goes here !!!
 
-## Source
-<a href="https://www.flaticon.com/free-icons/gym" title="gym icons">Gym icons created by Freepik - Flaticon</a>
+## Sources
+<a href="https://www.flaticon.com/free-icons/gym" title="gym icons">Gym icons created by Freepik - Flaticon</a><br>
 <a href="https://unsplash.com/photos/black-spin-exercise-bike-lot-LOA2mTj1vhc">Free Background Image from Humphrey Muleba on Unsplash</a>
