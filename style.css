@@ -99,16 +99,18 @@ main {
 }
 
 .hero_sign_up_button:hover {
-    background-color: white;
-    color: #3382F6;
+    background-color: #044bb7;
     border: #3382F6 solid 2px;
+    transform: scale(1.025);
 }
 
 #gym_image {
     border: black solid 1px;
     border-radius: 6cap;
-    height: 35vh;
-    filter: brightness(65%);
+    max-width: 100%;
+    height: auto;
+    max-height: 40vh;
+    filter: brightness(80%);
 }
 
 .other_gym_offers {
@@ -149,12 +151,13 @@ main {
 }
 
 .offer:hover {
-    filter: brightness(30%);
+    filter: brightness(60%);
+    transform: scale(1.025);
 }
 
 .offer_image {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 3cap;
 }
 
@@ -190,6 +193,20 @@ main {
     border: black solid 2px;
     border-top-left-radius: 3cap;
     border-bottom-right-radius: 3cap;
+}
+
+.motivation_quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 15vh;
+    padding: 50px;
+    background-color: #7a879c;
+    color: whitesmoke;
+    border: black solid 2px;
+    overflow: hidden;
 }
 
 footer {
